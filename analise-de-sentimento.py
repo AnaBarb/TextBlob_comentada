@@ -64,31 +64,5 @@ print("Sentenças:")
 for i, sentence in enumerate(sentences):
     print(f"{i+1}. {sentence}")
 
-
-# Construindo a Ata
-ata = f"""
-ATA DA REUNIÃO
-
-Data e Hora: [Data e Hora a ser preenchida]
-Local: [Local a ser preenchido]
-Participantes: [Participantes a serem preenchidos]
-
-Tópicos Discutidos:
-{', '.join(nouns)}
-
 Resumo da Análise de Sentimento:
 {result}
-
-Decisões Tomadas:
-[Decisões Tomadas a serem preenchidas]
-
-Ações Futuras:
-[Ações Futuras a serem preenchidas]
-
-Assinaturas:
-[Assinaturas a serem preenchidas]
-"""
-
-# Exibir a Ata
-print("\n\n===== ATA DA REUNIÃO =====")
-print(ata)
